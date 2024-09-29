@@ -1,0 +1,78 @@
+/* login.css */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 8px rgba(108, 99, 255, 0.1);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #574bff;
+}
+
+.naverLoginBtn{
+  background-color: #558d1e;
+}
+
+p {
+  color: red;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .login-container {
+    padding: 15px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

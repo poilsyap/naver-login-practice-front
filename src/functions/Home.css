@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=D2Coding&display=swap');
+
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 화면의 100% 높이 */
+    font-family: 'D2Coding', monospace; /* D2Coding 폰트 설정 */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem; /* 폰트 크기 */
+    color: #333; /* 글자 색상 */
+}
