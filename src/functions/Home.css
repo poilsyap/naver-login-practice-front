@@ -7,6 +7,7 @@
     height: 100vh; /* 화면의 100% 높이 */
     font-family: 'D2Coding', monospace; /* D2Coding 폰트 설정 */
     text-align: center;
+    flex-direction: column;
 }
 
 h1 {

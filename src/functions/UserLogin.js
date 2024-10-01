@@ -28,10 +28,7 @@ const UserLogin = () => {
         }
     };
 
-    const naver_client_id = "CW0BQSe6XFSmQf39fG3V";
-    const redirect_url = "http://localhost:8080/api/member/login/naver";
-    const state = encodeURIComponent("poil")
-    const naver_auth_url = `https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=${naver_client_id}&state=${state}&redirect_uri=${redirect_url}`;
+    const naver_auth_url = "http://localhost:8080/oauth2/authorization/naver"
 
     const NaverLogin = () => {
         window.location.href = naver_auth_url;
